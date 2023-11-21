@@ -5,6 +5,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
     display: inline-block;
+    margin-bottom: 1rem;
 }
 
 .posts {
@@ -13,6 +14,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin-top: -2.5rem;
+    margin-top: -1.5rem;
 }
 
