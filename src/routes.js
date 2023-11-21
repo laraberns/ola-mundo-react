@@ -6,10 +6,12 @@ import Rodape from './componentes/rodape/index.js';
 import PaginaPadrao from './componentes/paginaPadrao/index.js';
 import Post from './componentes/post/index.js';
 import NaoEncotrada from './paginas/naoEncontrada/index.js';
+import ScrollToTop from './componentes/scrollToTop/index.js';
 
 function AppRoutes() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <Menu />
 
       <Routes>
